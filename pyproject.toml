@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "exercises-analyzer"
+version = "0.1.0"
+description = "Project to generate a routine plan for the week, counting an calories average per exercise done, and also for nutrition, the results will be showed on a table."
+authors = ["Jkrox <jkrox@protonmail.com>"]
+license = "The MIT License (MIT)"
+readme = "README.md"
+packages = [{include = "exercises_analyzer"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+prettytable = "^3.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
